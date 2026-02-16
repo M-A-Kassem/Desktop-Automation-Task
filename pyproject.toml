@@ -1,0 +1,15 @@
+[project]
+name = "notepad-automation"
+version = "0.1.0"
+description = "Vision-based desktop automation — locates the Notepad icon via template matching"
+requires-python = ">=3.10"
+dependencies = [
+    "pyautogui",
+    "opencv-python-headless",
+    "pyperclip",
+    "Pillow",
+    "requests",
+]
+
+[project.scripts]
+automate = "main:main"
